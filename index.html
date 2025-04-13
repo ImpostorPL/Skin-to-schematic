@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Minecraft Skin Posąg</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Minecraft Skin Posąg</h1>
+    <div class="controls">
+        <label>Wybierz skin (.png):</label>
+        <input type="file" id="skinInput" accept="image/png"><br>
+        <label>Model:</label>
+        <select id="modelType">
+            <option value="classic">Classic</option>
+            <option value="slim">Slim</option>
+        </select>
+    </div>
+    <div id="viewer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
